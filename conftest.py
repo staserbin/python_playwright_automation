@@ -1,6 +1,9 @@
 import pytest
 from pathlib import Path
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, Page
+
+from pages.home_page import HomePage
+
 
 def pytest_addoption(parser):
     parser.addoption(
@@ -50,3 +53,9 @@ def page(browser, request):
     # Clean up after the test
     page.close()
     context.close()
+
+@pytest.fixture()
+def home_page(page: Page):
+    home = HomePage(page)
+    home.goto()
+    return home
