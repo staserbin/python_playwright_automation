@@ -1,4 +1,4 @@
-# Automation Test Framework
+# Test Automation Framework
 
 This project is a test automation framework built with:
 
