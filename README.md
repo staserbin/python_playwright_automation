@@ -1,13 +1,13 @@
-# 🧪 UI Automation Test Framework
+# Automation Test Framework
 
-This project is a UI test automation framework built with:
+This project is a test automation framework built with:
 
-- ✅ **Python 3.12+**
-- ✅ **Pytest** – test runner
-- ✅ **Playwright** – browser automation
-- ✅ **Allure** – rich and interactive test reports
-- ✅ **pytest-html** – lightweight HTML report
-- ✅ **Page Object Model (POM)** – clean and scalable test structure
+- **Python 3.12+**
+- **Pytest** – test runner
+- **Playwright** – browser automation
+- **Allure** – rich and interactive test reports
+- **pytest-html** – lightweight HTML report
+- **Page Object Model (POM)** – clean and scalable test structure
 
 ---
 
